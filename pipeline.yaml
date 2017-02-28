@@ -17,4 +17,4 @@ actions:
     - name: 'Sync SysPack Webflow Page'
       type: bash
       cmd: "sh {{sysPackSyncPath}}sync_script"
-    - 'echo SysPack Home Page Sync Finished'
+    - "echo 'SysPack Home Page Sync Finished'"
