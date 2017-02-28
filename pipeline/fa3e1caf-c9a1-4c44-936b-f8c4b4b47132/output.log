@@ -1,0 +1,12 @@
+2017:02:28 18:07:14: Pipeline started. vars: {"status_file": "/Users/wenqingyu/workspace/pipelines_workspace/pipeline/fa3e1caf-c9a1-4c44-936b-f8c4b4b47132/status.json", "log_file": "/Users/wenqingyu/workspace/pipelines_workspace/pipeline/fa3e1caf-c9a1-4c44-936b-f8c4b4b47132/output.log", "sysPackSyncPath": "/Users/wenqingyu/workspace/syspack/"}
+2017:02:28 18:07:14: Task started: Task-1
+2017:02:28 18:07:15: Starting Sync SysPack Home Page from 
+2017:02:28 18:07:15: Task finished, name: Task-1, status: 0, msg: Bash task finished
+2017:02:28 18:07:15: Task started: Sync SysPack Webflow Page
+2017:02:28 18:07:15: M	pipeline.yaml
+2017:02:28 18:07:15: Already on 'master'
+2017:02:28 18:07:15: Your branch is up-to-date with 'origin/master'.
+2017:02:28 18:07:15: WARNING: combining -O with -r or -p will mean that all downloaded content
+2017:02:28 18:07:15: will be placed in the single file you specified.
+2017:02:28 18:07:15: --2017-02-28 18:07:15--  https://syspack.webflow.io/
+2017:02:28 18:07:21: Resolving syspack.webflow.io... failed: nodename nor servname provided, or not known.
