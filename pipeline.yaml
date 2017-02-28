@@ -1,0 +1,20 @@
+---
+# Pipeline definitions are standard yaml and you can include comments inside
+
+# Variables are exposed to all actions through {{ varname }} syntax.
+vars:
+    sysPackSyncPath: /Users/wenqingyu/workspace/syspack/
+
+# Triggers define the automated ways to run the task. In addition to manual execution
+# through the UI, only webhook is supported for now.
+# triggers:
+    # - type: webhook
+
+# Actions are the steps that are run for this pipeline. The default action plugin is bash,
+# but you can use others by defining the "type" field.
+actions:
+    - 'echo "Starting Sync SysPack Home Page from "'
+    - name: 'Sync SysPack Webflow Page'
+      type: bash
+      cmd: "sh {{sysPackSyncPath}}sync_script"
+    - 'echo SysPack Home Page Sync Finished'

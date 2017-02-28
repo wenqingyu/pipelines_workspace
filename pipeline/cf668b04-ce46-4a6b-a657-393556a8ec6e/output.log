@@ -1,0 +1,8 @@
+2017:02:28 15:24:35: Pipeline started. vars: {"status_file": "/Users/wenqingyu/workspace/pipelines_workspace/pipeline/cf668b04-ce46-4a6b-a657-393556a8ec6e/status.json", "code_branch": "dev", "log_file": "/Users/wenqingyu/workspace/pipelines_workspace/pipeline/cf668b04-ce46-4a6b-a657-393556a8ec6e/output.log"}
+2017:02:28 15:24:35: Task started: Task-1
+2017:02:28 15:24:35: Starting Sync SysPack Home Page from http://syspack.webflow.io/
+2017:02:28 15:24:35: Task finished, name: Task-1, status: 0, msg: Bash task finished
+2017:02:28 15:24:35: Task started: Sync SysPack Webflow Page
+2017:02:28 15:24:35: /bin/bash: line 1: =/Users/wenqingyu/workspace/pipelines_workspace: No such file or directory
+2017:02:28 15:24:35: Task finished, name: Sync SysPack Webflow Page, status: 1, msg: Bash task finished
+2017:02:28 15:24:35: Pipeline finished. Duration: 0.08s, 1 failed tasks
